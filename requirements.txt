@@ -3,3 +3,4 @@ jupyterlab
 pandas
 pyyaml
 delta-spark
+python-dateutil

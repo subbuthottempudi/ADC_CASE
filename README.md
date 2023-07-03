@@ -14,4 +14,4 @@ Way to use the docker:
 
   We can run this or in the container logs we can get the jypiter notebook access with pyspark sessions where we can just execute the code.
 
-  docker logs spark(container name)
+  docker logs spark (container name)

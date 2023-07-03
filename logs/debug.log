@@ -1,73 +1,9 @@
-06/12/2023 08:41:18 INFO:SparkSession created
-06/12/2023 08:41:18 INFO:Pyspark Dataframe - AWBMasterbillDetailsCBS_DF
-06/12/2023 08:52:52 INFO:SparkSession created
-06/12/2023 08:54:14 INFO:Pyspark Dataframe - AWBMasterbillDetailsCBS_DF
-06/12/2023 08:55:33 INFO:Pyspark Dataframe - AWBMasterbillDetailsCBS_DF
-06/12/2023 08:55:53 INFO:Pyspark Dataframe - AWBMasterbillDetailsCBS_DF
-06/12/2023 08:56:33 INFO:Pyspark Dataframe - AWBMasterbillDetailsCBS_DF
-06/12/2023 08:57:06 INFO:Pyspark Dataframe - AWBMasterbillDetailsCBS_DF
-06/12/2023 08:58:52 INFO:Pyspark Dataframe - AWBMasterbillDetailsCBS_DF
-06/12/2023 08:58:54 INFO:Pyspark Dataframe - AWBShipmentDetailsCBS_DF
-06/12/2023 08:59:46 INFO:Pyspark Dataframe - AWBMasterbillDetailsCBS_DF
-06/12/2023 08:59:46 INFO:Pyspark Dataframe - AWBShipmentDetailsCBS_DF
-06/12/2023 08:59:46 INFO:Pyspark Dataframe - AWBShipmentProgressCBS_DF
-06/12/2023 08:59:46 INFO:Pyspark Dataframe - ShipmentEquipmentCBS_DF
-06/12/2023 08:59:46 INFO:Pyspark Dataframe - TracerReadingsCBS_DF
-06/12/2023 09:03:45 INFO:Error while receiving.
-Traceback (most recent call last):
-  File "/opt/conda/lib/python3.8/site-packages/py4j/clientserver.py", line 480, in send_command
-    raise Py4JNetworkError("Answer from Java side is empty")
-py4j.protocol.Py4JNetworkError: Answer from Java side is empty
-06/12/2023 09:03:45 INFO:Closing down clientserver connection
-06/12/2023 09:03:45 ERROR:Exception while sending command.
-Traceback (most recent call last):
-  File "/opt/conda/lib/python3.8/site-packages/py4j/clientserver.py", line 480, in send_command
-    raise Py4JNetworkError("Answer from Java side is empty")
-py4j.protocol.Py4JNetworkError: Answer from Java side is empty
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/opt/conda/lib/python3.8/site-packages/py4j/java_gateway.py", line 1038, in send_command
-    response = connection.send_command(command)
-  File "/opt/conda/lib/python3.8/site-packages/py4j/clientserver.py", line 503, in send_command
-    raise Py4JNetworkError(
-py4j.protocol.Py4JNetworkError: Error while sending or receiving
-06/12/2023 09:03:45 INFO:Error while receiving.
-Traceback (most recent call last):
-  File "/opt/conda/lib/python3.8/site-packages/py4j/clientserver.py", line 480, in send_command
-    raise Py4JNetworkError("Answer from Java side is empty")
-py4j.protocol.Py4JNetworkError: Answer from Java side is empty
-06/12/2023 09:03:45 INFO:Closing down clientserver connection
-06/12/2023 09:03:45 ERROR:Exception while sending command.
-Traceback (most recent call last):
-  File "/opt/conda/lib/python3.8/site-packages/py4j/clientserver.py", line 480, in send_command
-    raise Py4JNetworkError("Answer from Java side is empty")
-py4j.protocol.Py4JNetworkError: Answer from Java side is empty
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/opt/conda/lib/python3.8/site-packages/py4j/java_gateway.py", line 1038, in send_command
-    response = connection.send_command(command)
-  File "/opt/conda/lib/python3.8/site-packages/py4j/clientserver.py", line 503, in send_command
-    raise Py4JNetworkError(
-py4j.protocol.Py4JNetworkError: Error while sending or receiving
-06/12/2023 09:03:45 INFO:Closing down clientserver connection
-06/12/2023 09:03:45 INFO:Closing down clientserver connection
-06/12/2023 09:05:09 INFO:Pyspark Dataframe - AWBMasterbillDetailsCBS_DF
-06/12/2023 09:05:09 INFO:Closing down clientserver connection
-06/12/2023 09:05:10 INFO:Closing down clientserver connection
-06/12/2023 09:05:10 INFO:Closing down clientserver connection
-06/12/2023 09:05:40 INFO:Closing down clientserver connection
-06/12/2023 09:05:40 ERROR:Traceback (most recent call last):
-
-06/12/2023 09:05:41 INFO:Pyspark Dataframe - AWBMasterbillDetailsCBS_DF
-06/12/2023 09:05:41 INFO:Closing down clientserver connection
-06/12/2023 09:06:56 INFO:Closing down clientserver connection
-06/12/2023 09:07:50 INFO:SparkSession created
-06/12/2023 09:07:50 INFO:Pyspark Dataframe - AWBMasterbillDetailsCBS_DF
-06/12/2023 09:07:52 INFO:Pyspark Dataframe - AWBShipmentDetailsCBS_DF
-06/12/2023 09:07:52 INFO:Pyspark Dataframe - AWBShipmentProgressCBS_DF
-06/12/2023 09:07:52 INFO:Pyspark Dataframe - ShipmentEquipmentCBS_DF
-06/12/2023 09:07:52 INFO:Pyspark Dataframe - TracerReadingsCBS_DF
+06/30/2023 16:29:32 INFO:SparkSession created
+06/30/2023 16:29:32 INFO:DataFrames created for each table/CSV file
+06/30/2023 16:29:36 INFO:DataFrames Schemas for each table
+06/30/2023 16:29:36 INFO:newcustomer_df after transformations
+06/30/2023 16:29:36 INFO:Creating temp tables on spark dataframe to perform SQL
+06/30/2023 16:29:36 INFO:SparkSQl query to fetch the data from different table by joining 
+06/30/2023 16:29:36 INFO:Union query to merging the 2 data sets newcustomer and oldcustomer tables
+06/30/2023 16:29:36 INFO:Adding the new derived columns to dataset
+06/30/2023 16:29:37 INFO:Writing the dataset to CSV file
